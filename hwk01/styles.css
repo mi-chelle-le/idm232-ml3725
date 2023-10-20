@@ -2,6 +2,8 @@
 
 :root {
     --darkblue: #1F5473;
+    --darkpink: #D96162;
+    --pink: #FA95A3;
     --blue: #3498db;
     --orange: #F4A234;
 
@@ -145,7 +147,7 @@ nav .header {
     margin-bottom: 10px;
     padding: 10px;
     text-align: center;
-    background-color: #3498db; 
+    background-color: var(--pink); 
     color: #fff;
     cursor: pointer;
     border-radius: 20px;
@@ -155,11 +157,11 @@ nav .header {
 }
 
 .filter-button:hover {
-    background-color: var(--darkblue);
+    background-color: var(--darkpink);
 }
 
 .all-rec {
-    background-color: var(--darkblue);
+    background-color: var(--darkpink);
 }
 
 .recipes {
@@ -176,6 +178,12 @@ nav .header {
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
     max-width: 350px;
     height: auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.recipe-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
 }
 
 .recipe-card img {
