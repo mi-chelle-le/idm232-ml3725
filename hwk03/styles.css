@@ -94,8 +94,20 @@ nav h2 {
 }
 
 .recipe_stats div { 
-    margin: 15px;
-    padding: 15px;
+    margin: 0 50px;
+    text-align: center;
+}
+
+.recipe_time svg {
+    width: 50px;
+}
+
+.recipe_serv svg {
+    width: 57px;
+}
+
+.recipe_cal svg {
+    width: 65px;
 }
 
 .recipe_img img {
@@ -126,6 +138,7 @@ nav h2 {
     display: flex;
     justify-content: center;
 }
+
 .ingredients {
     display: grid;
     grid-template-columns: 60% 40%;
@@ -215,4 +228,105 @@ span {
     padding: 40px; 
     bottom: 0;
     width: 100%;
+}
+
+@media (max-width: 1350px) {
+    .recipe_info {
+        margin-top: 25px;
+    }
+
+    .recipe_stats div {
+        margin: 0 40px;
+    }
+
+    .title {
+        margin-left: 75px;
+    }
+
+}
+
+@media (max-width: 1160px) {
+    .recipe_info h2 {
+        font-size: 2rem;
+    }
+
+    .recipe_info h3 {
+        font-size: 1.3rem;
+    }
+
+    .recipe_info p {
+        font-size: 1rem;
+        padding-right: 50px;
+    }
+
+    .recipe_time svg {
+        width: 40px;
+    }
+    
+    .recipe_serv svg {
+        width: 47px;
+    }
+    
+    .recipe_cal svg {
+        width: 55px;
+    }
+
+    .recipe_stats div {
+        margin: 0 30px;
+    }
+
+    .recipe_stats {
+        bottom: 10%;
+        padding: 20px;
+    }
+
+    .ingredients {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 980px) {
+
+    .recipe_stats {
+        position: relative; 
+        bottom: 0;
+        margin: 40px 0;
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        padding: 20px;
+        grid-column: span 2;
+    }
+
+    .recipe_stats div {
+        margin: 0 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    .recipe_container {
+        grid-template-columns: 1fr;
+    }
+
+    .recipe_stats {
+        grid-column: auto;
+    }
+
+    .title {
+        margin-left: 50px;
+    }
+    
+    .recipe_img {
+        margin: 0 15px;
+        justify-self: center;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .ingredients {
+        grid-template-columns: 1fr;
+    }
+
+    
 }
