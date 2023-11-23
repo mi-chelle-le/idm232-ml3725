@@ -231,6 +231,10 @@ span {
   width: 100%;
 }
 
+strong {
+  font-weight: normal;
+}
+
 @media (max-width: 1350px) {
   .recipe_info {
     margin-top: 25px;
