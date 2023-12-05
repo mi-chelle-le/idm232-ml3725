@@ -249,7 +249,7 @@ a, a:visited, a:hover, a:focus {
 }
 
 .filter-button.active {
-    background-color: var(--darkpink); /* Active background color */
+    background-color: var(--darkpink);
 }
 
 
