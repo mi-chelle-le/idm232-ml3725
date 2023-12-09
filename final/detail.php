@@ -23,7 +23,7 @@
         <a href="./index.php"><h2>Cookify</h2></a>
     </nav>
     <div>
-        <a href="./index.php" class="back-button"><i class="fa-solid fa-arrow-left-long"></i> Back</a>
+    <button class="back-button" onclick="window.history.back()"><i class="fa-solid fa-arrow-left-long"></i> Back</button>
     </div>
 
     <?php
@@ -132,7 +132,7 @@
     ?>
 
         <div>
-        <a href="./index.php" class="back-button"><i class="fa-solid fa-arrow-left-long"></i> Back</a>
+        <button class="back-button" onclick="window.history.back()"><i class="fa-solid fa-arrow-left-long"></i> Back</button>
         </div>
         <footer class="footer">
             <p>&copy; 2023 Michelle Le - Cookify</p>

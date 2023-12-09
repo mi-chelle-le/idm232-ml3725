@@ -40,14 +40,17 @@ nav h2 {
 
 .back-button {
   display: inline-block;
-  padding: 20px;
-  font-size: 1.2rem;
+  padding: 0px;
+  font-size: 1.3rem;
   color: var(--charcoal);
   text-decoration: none;
   font-weight: bold;
   transition: color 0.3s ease-in-out;
-  margin: 20px;
-  margin-left: 50px;
+  margin: 40px;
+  margin-left: 60px;
+  background-color: transparent;
+  font-family: "Lexend Deca", sans-serif;
+  cursor: pointer;
 }
 
 .back-button:hover {

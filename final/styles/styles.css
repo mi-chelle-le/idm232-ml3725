@@ -110,7 +110,7 @@ form button {
 }
 
 .hero-img img {
-    width: 80%;
+    width: 65%;
     height: auto;
 }
 
@@ -136,7 +136,7 @@ form button {
 }
 
 .overlay-text h4 {
-    color: var(--darkpink)
+    color: var(--darkpink);
 }
 
 .overlay-text h1 {
@@ -159,6 +159,7 @@ form button {
     .overlay-text h4 {
         margin-top: 7px;
         font-size: 1.5rem;
+        margin-bottom: 40px;
     }
 
     .site-logo {
@@ -178,6 +179,8 @@ form button {
         margin-top: 7px;
         font-size: 1.2rem;
     }
+
+
 }
 
 @media (max-width: 600px) {
@@ -359,8 +362,10 @@ a, a:visited, a:hover, a:focus {
     }
 
     form {
-        margin:30px;
+        margin: 40px;
     }
+
+
 
     .cook-time-filter {
         margin-top: 0px;
@@ -401,6 +406,10 @@ a, a:visited, a:hover, a:focus {
     align-items: center;
     text-align: center;
     color: grey;
+}
+
+.no-recipes-msg h2 {
+    max-width: 400px;
 }
 
 .no-recipes-msg svg {

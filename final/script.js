@@ -42,20 +42,21 @@ function initializeButtonStates() {
 
 // Cooktime Filter
 
-function toggleCookTimeFilter(cooktime, element) {
-    let url = new URL(window.location);
-    url.searchParams.set('cooktime', cooktime);
-    window.location.href = url.href;
+// function toggleCookTimeFilter(cooktime, element) {
+//     let url = new URL(window.location);
+//     url.searchParams.set('cooktime', cooktime);
+//     window.location.href = url.href;
 
-    // Optionally, highlight the selected cook time button
-    document.querySelectorAll('.cooktime').forEach(button => {
-        if (button.getAttribute('data-cooktime') === cooktime) {
-            button.classList.add('active');
-        } else {
-            button.classList.remove('active');
-        }
-    });
-}
+//     document.querySelectorAll('.cooktime').forEach(button => {
+//         if (button.getAttribute('data-cooktime') === cooktime) {
+//             button.classList.add('active');
+//         } else {
+//             button.classList.remove('active');
+//         }
+//     });
+// }
 
 
 document.addEventListener('DOMContentLoaded', initializeButtonStates);
+
+
