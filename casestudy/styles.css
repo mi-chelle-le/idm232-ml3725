@@ -117,3 +117,18 @@ button:hover {
     margin-top: 0px;
     margin-bottom: 100px;
 }
+
+@media (max-width: 640px) {
+    .two-grid {
+        grid-template-columns: 1fr;
+    }
+    .code-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .code-grid div {
+        display: flex;
+        align-items: center; /* This vertically centers the content */
+        justify-content: center; 
+    }
+} 

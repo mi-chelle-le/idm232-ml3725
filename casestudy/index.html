@@ -48,8 +48,12 @@
             <p>Although incorporating PHP seemed like a daunting task initially, in-class demonstrations helped me jumpstart the process and familiarize myself with the language. Displaying all the recipes dynamically was a lot easier to integrate than I expected. However once I tread deeper into the functionality of the code, I ran into challenges. </p>
             <p><span>Selecting Multiple Protein Filters:</span> I wanted to code my filters so that users could select more than one to filter out the recipes. I also included a ‘Clear All” button so they could deselect multiple selections at once easily. To make this work, I first got the filter string from the URL parameters. Then, to split the filter string into an array, I used an explode function. I then utilized a foreach loop to select records from the database protein column that match the filter conditions. </p>
             <div class="two-grid code-grid">
+            <div>
                 <img src="imgs/codesnippet_1.png">
-                <img src="imgs/proteinfilter.png">
+            </div>
+            <div>
+                <img src="imgs/proteinfilter.png" style="max-width: 275px;">
+            </div>
             </div>
             <p><span>Encasing Ingredients Numbers:</span> For the ingredients list, I wanted each number to be a different color from the rest of the ingredient description. To do so, I used “preg_replace” in a function to search for patterns of digits and fractions in the string. This would wrap them in a span that allowed me to style them easily. </p>
             <div class="two-grid code-grid">
