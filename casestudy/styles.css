@@ -24,7 +24,7 @@
 body {
     font-family: 'Lexend Deca', sans-serif;
     background-color: var(--cream);
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 .case-study {
@@ -44,13 +44,13 @@ h1 {
 h2 { 
     color: var(--darkpink);
     margin: 10px 0;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
 }
 
 h3 {
     color: var(--darkgreen);
     margin: 15px 0 10px 0;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
 }
 
 p {
@@ -103,4 +103,17 @@ button {
 button:hover {
     background-color: var(--darkpink);
     transform: scale(1.05);
+}
+
+.two-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px;
+    align-items: center;
+}
+
+.code-grid {
+    grid-template-columns: 70% 30%;
+    margin-top: 0px;
+    margin-bottom: 100px;
 }
