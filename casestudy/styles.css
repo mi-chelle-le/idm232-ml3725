@@ -128,7 +128,7 @@ button:hover {
 
     .code-grid div {
         display: flex;
-        align-items: center; /* This vertically centers the content */
+        align-items: center;
         justify-content: center; 
     }
 } 
